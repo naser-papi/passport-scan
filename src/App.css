@@ -1,0 +1,58 @@
+
+
+.app-image {
+  width: 60vmin;
+  pointer-events: none;
+}
+
+.app-main {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+  font-size: calc(7px + 2vmin);
+  color: white;
+  width: 100%;
+}
+.info-box{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.info-box > label{
+  margin:10px;
+  padding: 5px;
+  background-color: cadetblue;
+  color:white;
+  display: flex;
+  flex-flow: row;
+  column-gap: 5px;
+  border-radius: 5px;
+}
+.app-main>aside{
+  padding: 0 10px;
+  height: 100vh;
+}
+.app-main> aside:nth-child(1){
+  width: 650px;
+  border-right: 1px solid #1e1c1c;
+}
+.app-main> aside:nth-child(2){
+  flex-grow: 1;
+  width: auto;
+}
+
+.text-box {
+  background: #fff;
+  color: #333;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.actions{
+  display: flex;
+  flex-flow: row;
+  column-gap: 20px;
+}
