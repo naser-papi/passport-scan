@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { createWorker } from "tesseract.js";
 import "./App.css";
-
+//allSettle
 interface IPassInfo {
   passportNo: string;
   name: string;
